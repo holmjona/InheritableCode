@@ -11,7 +11,7 @@ namespace GiveMeTheMoney {
     /// <remarks>
     /// This class is based from Prof. Holmes Deliver 5 Solution
     /// </remarks>
-    class Person {
+    abstract class  Person {
         #region Private Variables 
         // This is the data!!!!
         private String _FirstName = "Frank";
@@ -128,6 +128,18 @@ namespace GiveMeTheMoney {
                + strToCap.Substring(2);
         }
         #endregion
+
+        #region Public Methods
+        public virtual string Sing() {
+            return "La La La";
+        }
+
+        public abstract Person CopyMe();
+
+
+
+        #endregion
+
 
     }
 

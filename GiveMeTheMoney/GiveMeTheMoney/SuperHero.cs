@@ -14,8 +14,19 @@ namespace GiveMeTheMoney {
         }
 
         public string CapeColor {
-            get { return CapeColor; }
+            get { return _CapeColor; }
             set { _CapeColor = value; }
         }
+
+        public override string Sing() {
+            return "Yodela-he-hoo";
+        }
+        public override Person CopyMe() {
+            return this;
+        }
+        public override string ToString() {
+            
+        }
+
     }
 }

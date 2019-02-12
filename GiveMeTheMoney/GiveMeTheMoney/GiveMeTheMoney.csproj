@@ -55,8 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Citizen.cs" />
     <Compile Include="MegaHero.cs" />
     <Compile Include="SuperHero.cs" />
+    <Compile Include="Villian.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
